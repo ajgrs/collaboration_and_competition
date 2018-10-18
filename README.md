@@ -1,1 +1,1 @@
-# collaboration_and_competition
+# Collaboration and Competition
