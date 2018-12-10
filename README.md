@@ -29,4 +29,4 @@ To run the code simply download the available files to a folder, open the Jupyte
 Python 3.6, Numpy 1.15.1, Pytorch 0.4.0, UnityEnvironment.
 
 <h3>6. Credits</h3>
-The baseline implementation of the DDPG algorithm was taken from here https://github.com/higgsfield/RL-Adventure-2. It was so elegantly implemented that we just had to use it as our first try in cracking the Reacher environment :-)
+The baseline implementation of the DDPG algorithm was taken from here https://github.com/higgsfield/RL-Adventure-2. It was so elegantly implemented that we just had to use it :-)
