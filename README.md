@@ -18,8 +18,6 @@ The action space is composed of a vector with 2 continuous variables which corre
 
 Each episode’s score is obtained by selecting the maximum score from the set total scores of both agents. The task is considered solved when the average score obtained over 100 consecutive episodes is greater than 0.50.
 
-An adapted version of the Reacher environment is used in the project. Observation states are composed of 33 variables which correspond to physical quantities such as the double-jointed arm’s position, rotation, velocity and angular velocities of each joint. Each variable is a number between -1 and 1.
-
 <h3>3. Implementation</h3>
 
 The learning process uses the Multiple Agent Deep Deterministic Policy Gradient (MADDPG) reinforcement learning algorithm (Lowe et al., 2018) which, although not a pure actor-critic algorithm, does use an actor to retrieve actions to use in a given local state and a centralised critic to evaluate such state-action pairs. Both the actor and critic are implemented as neural networks using the Pytorch library. Each agent has an independent actor and critic neural network.
